@@ -1,0 +1,26 @@
+.board-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 22px;
+}
+
+.board-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.member-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #eef2ff;
+  color: #2f3f66;
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border: 1px solid #dde6ff;
+}

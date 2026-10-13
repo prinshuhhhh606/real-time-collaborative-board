@@ -1,0 +1,54 @@
+
+.quick-add-task {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.quick-add-task input {
+  width: 100%;
+  min-width: 0;
+  padding: 10px 12px;
+  border: 1px solid #dfe7f6;
+  border-radius: 10px;
+  outline: none;
+  background: #ffffff;
+  color: #2d3a52;
+  font-size: 13px;
+}
+
+.quick-add-task input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.12);
+}
+
+.quick-add-task button {
+  flex-shrink: 0;
+  border: none;
+  border-radius: 10px;
+  padding: 0 13px;
+  background: #4f46e5;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.quick-add-task button:hover {
+  background: #4338ca;
+}
+
+.quick-add-task button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.column-empty {
+  padding: 16px 10px;
+  border: 1px dashed #d2dcea;
+  border-radius: 12px;
+  text-align: center;
+  color: #7a889d;
+  background: rgba(255, 255, 255, 0.3);
+  font-size: 13px;
+}
+
